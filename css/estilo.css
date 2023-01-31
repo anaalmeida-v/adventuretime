@@ -1,0 +1,334 @@
+@font-face {
+    font-family: 'Dosis';
+    src:  url('font/Dosis-Regular.ttf');
+  }
+@font-face {
+    font-family: 'DosisBold';
+    src:  url('font/Dosis-Bold.ttf');
+}
+@font-face {
+    font-family: 'DosisSemiBold';
+    src:  url('font/Dosis-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Adventure Time';
+    src:  url('font/Adventure\ Time.ttf');
+}
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #297fb8;
+    font-family: 'DosisSemiBold';
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+hr {
+    background-color: #3b98d3;
+    border: 0;
+    width: 100%;
+    height: 2px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.adventureTime {
+    font-family: 'Adventure Time';
+}
+
+.logotipo {
+    color: #f5c517;
+    font-size: 100px;
+    padding: 35px 0;
+}
+
+#menu {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    background-color: #297fb8;
+   
+}
+
+#menu p {
+    text-align: center;
+    line-height: 100%;
+ }
+ 
+#textoInicial{    
+    width: 950px;
+    margin: auto;
+}
+
+#textoInicial p {
+    font-size: 32px;
+    padding-bottom: 20px;
+    line-height: 36px;
+    color:#f5c517;
+    font-family: 'Dosis';
+    font-weight: 600;
+}
+
+#textoInicial .botaoPrincipal .adventureTime {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+#textoInicial .botaoPrincipal{
+    font-family: 'DosisSemiBold';
+    font-size: 24px;
+    color: #3598db;
+    background: #f5c517;
+    padding: 15px;
+    border-color: #f5c517;
+    text-decoration: none;
+    margin-bottom: 60px;
+}
+
+#textoInicial .botaoPrincipal:hover {
+    color: #f5c517;
+    background-color: #3598db;
+}
+
+.title {
+    font-size: 24px;
+    color: #f5c517;
+    font-family: 'DosisBold';
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+#titulo1{
+    color: #f5c517;
+    padding-top: 40px;
+}
+
+
+
+#paragrafo1 {
+    text-align: 20px;
+    color: white;
+    font-size: 17px;
+    float: left;
+    width: 50%;
+    padding-right: 15px;
+    margin-bottom: 60px;
+}
+
+p u {
+    color: #f5c517;
+}
+
+#paragrafo2{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    float: right;
+    padding-left: 15px;
+    width: 50%;
+}
+
+#paragrafo1 p, 
+#p3 p {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+#login button{
+    color: #3598db;
+    background: #f5c517;
+    padding:10px;
+    border-color: #f5c517;
+    margin: 0;
+    font-family: 'DosisBold';
+    font-size: 20px;
+    float: right;
+}
+
+#titulo2 {
+    margin-top: 50px;
+}
+
+#titulo2 p{
+    padding-top: 20px;
+    font-size: 20px;
+    color: #f5c517;
+    font-family: 'DosisBold';
+    text-align: left;
+}
+
+ #topo {
+    background: #3598db;
+    text-align: center;
+    bottom: 10px;
+ }
+
+#topo li {
+    list-style-type: none;
+    color: #f5c517;
+    margin: 0px;
+    line-height: 20px;
+    font-family: 'DosisBold';
+    display: inline-block;
+}
+
+
+#lista1 ul {
+    padding: 0;
+}
+
+#lista1 li{
+    list-style-type: none;
+    color: white;
+    padding:0%;
+    width:50%;
+    line-height: normal;
+    font-size: large;
+    text-align: left;
+    vertical-align: left;
+}
+.bullet {
+    display: inline-block;
+    background-image: url(../imagens/bullet.png);
+    width: 15px;
+    height: 15px;
+    background-size: 100%;
+    margin-right: 5px;
+}
+
+#topo li a {
+    text-decoration: none;
+    color:#f5c517;
+    padding: 15px;
+    display: block;
+}
+
+#topo a:hover{
+    background: #297fb8;
+}
+
+#botoes a:hover{
+    background:#3598db;
+}
+
+#botoes ul {
+    padding: 0;
+}
+
+#botoes li {
+    display: inline-block;
+}
+
+#botoes li button {
+    width: 100px;
+    height: 100px;
+    background-color: #f5c517;
+    color: #297fb8;
+    font-size: 70px;
+    margin-left: 15px;
+}
+#botoes li button:hover {
+    color: #f5c517;
+    background-color: #3598db;
+}
+
+
+#login {
+    padding-top: 5px;
+    padding-left: 15px;
+    background: #297fb8;
+    float: right;
+    width: 50%;
+    padding-bottom: 15%;
+
+}
+
+#paragrafo3{
+    color: #fff;
+    font-size: 17px;
+    text-align: left;
+    float: left;
+    width: 50%;
+    padding-right: 15px;
+}
+
+#rodapeFont{
+    padding-top: 50px;
+    padding-bottom: 3%;
+    background:  #3598db;
+    font-family: 'Adventure Time';
+    text-align: center;
+    float:right;
+    width: 100%;
+    color: #297fb8;
+    font-size: 100px;
+}
+
+
+#rodapeText{
+    color: white;
+    left: 50%;
+    right: 50%;
+    margin: 0%;
+    padding: 0%;
+    background: #3598db;
+    line-height: 100%;
+    text-align: center;
+    float:left;
+    padding-bottom: 1%;
+    width: 100%;
+}
+
+.formContato input {
+    display: block;
+    width: 100%;
+    color: #f5c517;
+    background-color: #3598db;
+    border-top: 4px #24669a solid;
+    border-right: 4px #24669a solid;
+    border-left: 0;
+    border-bottom: 0;
+    padding: 5px 5px 5px 15px;
+    height: 35px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Dosis';
+    font-size: 16px;
+}
+
+.formContato input:focus,
+.formContato input:active {
+    outline: 0;
+}
+
+.formContato input::placeholder {
+    color: #24669a;
+}
+
+p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#titulo1 p {
+    color: #f5c517;
+    margin-bottom: 50px;
+}
+
+#botaoGo button:hover {
+    color: #f5c517;
+    background-color: #3598db;
+} 
