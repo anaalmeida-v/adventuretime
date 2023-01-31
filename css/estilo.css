@@ -21,7 +21,7 @@
 }
 
 body {
-    background-color: #f0f;
+    background-color: #297fb8;
     font-family: 'DosisSemiBold';
 }
 
@@ -58,7 +58,7 @@ hr {
     margin: auto;
     padding: auto;
     text-align: center;
-    background-color: #f0f;
+    background-color: #297fb8;
    
 }
 
@@ -217,7 +217,7 @@ p u {
 }
 
 #topo a:hover{
-    background: #f0f;
+    background: #297fb8;
 }
 
 #botoes a:hover{
@@ -236,7 +236,7 @@ p u {
     width: 100px;
     height: 100px;
     background-color: #f5c517;
-    color: #f0f;
+    color: #297fb8;
     font-size: 70px;
     margin-left: 15px;
 }
@@ -249,7 +249,7 @@ p u {
 #login {
     padding-top: 5px;
     padding-left: 15px;
-    background: #f0f;
+    background: #297fb8;
     float: right;
     width: 50%;
     padding-bottom: 15%;
@@ -273,7 +273,7 @@ p u {
     text-align: center;
     float:right;
     width: 100%;
-    color: #f0f;
+    color: #297fb8;
     font-size: 100px;
 }
 
