@@ -39,10 +39,6 @@ hr {
     margin: 0%;
 }
 
-.container {
-    width: 1000px;
-    margin: auto;
-}
 
 .adventureTime {
     font-family: 'Adventure Time';
@@ -54,7 +50,7 @@ hr {
     padding: 35px 0;
 }
 
-#menu {
+#area-conteudo{
     margin: auto;
     padding: auto;
     text-align: center;
@@ -62,7 +58,7 @@ hr {
    
 }
 
-#menu p {
+#area-conteudo p {
     text-align: center;
     line-height: 100%;
  }
@@ -121,8 +117,6 @@ hr {
     text-align: 20px;
     color: white;
     font-size: 17px;
-    float: left;
-    width: 50%;
     padding-right: 15px;
     margin-bottom: 60px;
 }
@@ -135,9 +129,7 @@ p u {
     text-align: center;
     color: white;
     font-size: 17px;
-    float: right;
     padding-left: 15px;
-    width: 50%;
 }
 
 #paragrafo1 p, 
@@ -155,7 +147,6 @@ p u {
     margin: 0;
     font-family: 'DosisBold';
     font-size: 20px;
-    float: right;
 }
 
 #titulo2 {
@@ -173,16 +164,13 @@ p u {
  #topo {
     background: #3598db;
     text-align: center;
-    bottom: 10px;
  }
+
 
 #topo li {
     list-style-type: none;
     color: #f5c517;
-    margin: 0px;
-    line-height: 20px;
     font-family: 'DosisBold';
-    display: inline-block;
 }
 
 
@@ -212,8 +200,6 @@ p u {
 #topo li a {
     text-decoration: none;
     color:#f5c517;
-    padding: 15px;
-    display: block;
 }
 
 #topo a:hover{
@@ -224,15 +210,7 @@ p u {
     background:#3598db;
 }
 
-#botoes ul {
-    padding: 0;
-}
-
-#botoes li {
-    display: inline-block;
-}
-
-#botoes li button {
+#botoes div button {
     width: 100px;
     height: 100px;
     background-color: #f5c517;
