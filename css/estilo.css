@@ -64,21 +64,19 @@ hr {
  }
  
 #textoInicial{    
-    width: 950px;
     margin: auto;
 }
 
 #textoInicial p {
-    font-size: 32px;
+    font-size: 24px;
     padding-bottom: 20px;
-    line-height: 36px;
     color:#f5c517;
     font-family: 'Dosis';
     font-weight: 600;
 }
 
 #textoInicial .botaoPrincipal .adventureTime {
-    font-size: 32px;
+    font-size: 24px;
     margin-right: 10px;
 }
 
