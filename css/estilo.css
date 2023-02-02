@@ -224,8 +224,6 @@ p u {
     padding-top: 5px;
     padding-left: 15px;
     background: #297fb8;
-    float: right;
-    width: 50%;
     padding-bottom: 15%;
 
 }
@@ -234,9 +232,6 @@ p u {
     color: #fff;
     font-size: 17px;
     text-align: left;
-    float: left;
-    width: 50%;
-    padding-right: 15px;
 }
 
 #rodapeFont{
