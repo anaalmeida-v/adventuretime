@@ -207,13 +207,15 @@ p u {
 }
 
 #botoes div button {
-    width: 100px;
+    width: 100%;
+    max-width: 100px;
     height: 100px;
     background-color: #f5c517;
     color: #297fb8;
     font-size: 70px;
-    margin-left: 15px;
+    margin: 0;
 }
+
 #botoes li button:hover {
     color: #f5c517;
     background-color: #3598db;
@@ -290,8 +292,44 @@ p {
     color: #f5c517;
     margin-bottom: 50px;
 }
+#botaoGo button {
+    width: 100px;
+    border: 0;
+}
 
 #botaoGo button:hover {
     color: #f5c517;
     background-color: #3598db;
 } 
+
+@media (max-width: 768px) {
+    .navbar-menu {
+        position: fixed;
+        background-color: #3b98d3;
+        width: 50vw;
+        height: 100vh;
+        z-index: 5;
+        right: 0;
+        top: 0;
+        transition: all 0.5s ease-in-out;
+        transform: translateX(200vw);
+        align-items: center;
+        display: flex;
+    }
+    body.active .navbar-menu {
+        transform: translateX(0);
+    }
+    .navbar-menu .navbar-nav {
+        flex-wrap: wrap;
+    }
+    .navbar-menu .navbar-nav li {
+        width: 100%;
+    }
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+    cursor: pointer;
+  }
